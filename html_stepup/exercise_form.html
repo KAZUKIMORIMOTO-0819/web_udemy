@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>アルバイト募集フォーム</title>
+    </head>
+
+    <body>
+        <h1>アルバイト募集フォーム</h1>
+        <form action="#" method="post">
+            <table border="1">
+                <tr><!--  テーブルの行を表す -->
+                    <th>ふりがな＊</th> <!-- ヘッダーを表す-->
+                    <td><input type="text" name="hurigana" required></input></td> <!-- データを表す-->
+                </tr>
+                <tr>
+                    <th>生年月日＊</th>
+                    <td><input type="text" name="birthday" required></input></td>
+                </tr>
+                <tr>
+                    <th>性別＊</th>
+                    <td> <!-- ラジオボタン -->
+                        <input type="radio" name="gender" value="male" checked>男性</input>
+                        <input type="radio" name="gender" value="female">女性</input>
+                    </td>
+                </tr>
+                <tr>
+                    <th>電話番号</th>
+                    <td><input type="text" name="birthday"></input></td>
+                </tr>
+                <tr>
+                    <th>メールアドレス＊</th>
+                    <td><input type="text" name="birthday"></input></td>
+                </tr>
+                <tr>
+                    <th>現在の職業＊</th>
+                    <td>
+                        <select> <!-- プルダウン -->
+                            <option value="jobselect" selected>選択してください</option>
+                            <option value="nojob">無職</option>
+                            <option value="sala">会社員</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>お問い合わせ内容</th>
+                    <td><textarea type="text" name="birthday"></textarea></td>
+                </tr>
+            </table>
+            <input type="submit" value="送信"></input>
+        </form>
+    </body>
+</html>

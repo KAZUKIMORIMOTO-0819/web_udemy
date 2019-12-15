@@ -1,0 +1,14 @@
+/* 背景の設定*/
+body { 
+    background-color: #ccc;
+}
+
+ /* idでの指定 */
+#example { 
+    color : blue;
+}
+
+/* クラスでの指定　複数指定が可能*/
+.completed {
+    text-decoration: line-through;
+}
